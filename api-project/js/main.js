@@ -7,3 +7,6 @@ async function getData(URL) {
     console.log(data);
     }
 getData(URL);
+
+/* const boro = data.filter(data => data.bor_ === "QNS");
+console.log(boro); */
