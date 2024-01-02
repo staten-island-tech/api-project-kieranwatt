@@ -1,1 +1,99 @@
+@import url(header.css);
+@import url(buttons.css);
+@import url(cards.css);
 
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Mooli', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Pinyon Script', cursive;
+}
+/* defines basic colors, gives them primary, secondary, etc values, and assigns the text size values */
+:root {
+  --dark: #000000;
+  --bluee: #07cccf;
+  --pinkee: #d736af;
+  --light: #e8e5e5;
+  --violetee: #d514d8;
+  --greenee: #1da829;
+
+  --primary: var(--dark);
+  --secondary: var(--light);
+  --tertiary: var(--greenee);
+  --quarternary: var(--bluee);
+  --quinary: var(--pinkee);
+
+
+
+  --h1: 3rem;
+  --h2: 2.5rem;
+  --h3: 2rem;
+  --h4: 1.75rem;
+  --h5: 1.5rem;
+  --h6: 1rem;
+}
+/* defines darkmode theme presets */
+.darkmode {
+  background-color: var(--primary);
+  color: var(--primary);
+  --btntxt: var(--secondary);
+  --btnbacco: var(--quinary);
+  --btnborder: var(--tertiary);
+  --cardtxt: var(--secondary);
+  --cardbacco: var(--quinary);
+  --cardborder: var(--tertiary);
+}
+/* defines lightmode theme presets */
+.lightmode {
+  background-color: var(--secondary);
+  color: var(--secondary);
+  --btntxt: var(--primary);
+  --btnbacco: var(--quarternary);
+  --btnborder: var(--tertiary);
+  --cardtxt: var(--primary);
+  --cardbacco: var(--quarternary);
+  --cardborder: var(--tertiary);
+}
+
+h1 {
+  font-size: var(--h1);
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  font-size: var(--h3);
+}
+
+h4 {
+  font-size: var(--h4);
+}
+
+h5 {
+  font-size: var(--h5);
+}
+
+h6 {
+  font-size: var(--h6);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+.header-desc {
+  font-size: var(--h3);
+}

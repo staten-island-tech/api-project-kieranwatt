@@ -1,0 +1,21 @@
+@import url(style.css);
+@import url(buttons.css);
+@import url(cards.css);
+
+.header {
+    padding: 2rem;
+    background-color: var(--bluee);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.mainheadertxt {
+    font-size: var(--h6);
+}
+
+.headerimg {
+    max-width: 20rem;
+    max-height: 20rem;
+}
+/* header css defining */

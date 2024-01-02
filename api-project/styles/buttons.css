@@ -1,0 +1,52 @@
+@import url(style.css);
+@import url(header.css);
+@import url(cards.css);
+
+.buttons {
+    display: flex;
+    justify-content: left;
+    padding: 1rem;
+}
+.themebtn {
+    position: relative;
+}
+.typefilter {
+    position: relative;
+}
+.kieranrating {
+    position: relative;
+}
+.dabloonprice {
+    position: relative;
+}
+.themebtn {
+    font-size: 1rem;
+    height: 5rem;
+    width: 10rem;
+    background-color: var(--btnbacco);
+}
+.typebtnitems {
+    font-size: 1rem;
+    height: 5rem;
+    width: 10rem;
+    background-color: var(--btnbacco);
+}
+.typebtnstructures {
+    font-size: 1rem;
+    height: 5rem;
+    width: 10rem;
+    background-color: var(--btnbacco);
+}
+.ratingbtn {
+    font-size: 1rem;
+    height: 5rem;
+    width: 10rem;
+    background-color: var(--btnbacco);
+}
+.pricebtn {
+    font-size: 1rem;
+    height: 5rem;
+    width: 10rem;
+    background-color: var(--btnbacco);
+}
+/* defining the button styles */
