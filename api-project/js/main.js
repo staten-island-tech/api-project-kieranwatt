@@ -11,7 +11,6 @@ async function getData(URL){
     } catch (error) {
         console.log(error);
     }
-    
 }
 getData(URL);
 
