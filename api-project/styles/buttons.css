@@ -7,43 +7,46 @@
     justify-content: left;
     padding: 1rem;
 }
-.themebtn {
+.brooklynbtn {
     position: relative;
 }
-.typefilter {
+.statenislandbtn {
     position: relative;
 }
-.kieranrating {
+.manhattanbtn {
     position: relative;
 }
-.dabloonprice {
+.queensbtn {
     position: relative;
 }
-.themebtn {
+.thebronxbtn {
+    position: relative;
+}
+.brooklynbtn {
     font-size: 1rem;
     height: 5rem;
     width: 10rem;
     background-color: var(--btnbacco);
 }
-.typebtnitems {
+.statenislandbtn {
     font-size: 1rem;
     height: 5rem;
     width: 10rem;
     background-color: var(--btnbacco);
 }
-.typebtnstructures {
+.manhattanbtn {
     font-size: 1rem;
     height: 5rem;
     width: 10rem;
     background-color: var(--btnbacco);
 }
-.ratingbtn {
+.queensbtn {
     font-size: 1rem;
     height: 5rem;
     width: 10rem;
     background-color: var(--btnbacco);
 }
-.pricebtn {
+.thebronxbtn {
     font-size: 1rem;
     height: 5rem;
     width: 10rem;
