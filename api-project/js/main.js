@@ -1,6 +1,8 @@
 import '../styles/style.css';
+import { domselectors } from './selectors';
 // import { domselectors } from "./selectors";
 const URL = "https://data.cityofnewyork.us/resource/ycrg-ses3.json"
+const BKURL = "https://data.cityofnewyork.us/resource/ycrg-ses3.json?bor_=BK"
 
 async function getData(URL){
     try {
@@ -13,6 +15,8 @@ async function getData(URL){
     }
 }
 getData(URL);
+
+domselectors.brooklyn.addEventListener
 
 // Idea of the project -allows you too filter by boro and lane type too see what sbs busses operate on it
 
