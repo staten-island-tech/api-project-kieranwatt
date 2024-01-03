@@ -17,23 +17,31 @@ async function fetchData(url) {
 
 async function processRoutes(url) {
     try {
-        console.log("yipeee");
+      
         const data = await fetchData(url);
 
         const uniquesbsroute1 = new Set();
-        const uniquesbsroute2 = new Set();
-
+       // const uniquesbsroute2 = new Set();
+        //const test = new Set()
         data.forEach(entry => {
             uniquesbsroute1.add(entry.sbs_route1);
-            uniquesbsroute2.add(entry.sbs_route2);
-        });
+            uniquesbsroute1.add(entry.sbs_route2);
 
+           // uniquesbsroute2.add(entry.sbs_route2);
+        });
+        console.log(uniquesbsroute1)
+        //insert card code here
+        
         uniquesbsroute1.forEach(value1 => {
-            console.log(value1);
-        });
-        uniquesbsroute2.forEach(value2 => {
+            if(value1){
+                console.log(value1);
+                //insert data into card instead of logging data
+            }
+            
+        }); 
+        /* uniquesbsroute2.forEach(value2 => {
             console.log(value2);
-        });
+        }); */
     } catch (error) {
         console.error(error.message);
     }
