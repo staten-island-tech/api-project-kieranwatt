@@ -23,3 +23,48 @@ async function getData(URL) {
     console.log(color);
     };
 getData(URL);
+
+//some notes
+
+// async function getData(URL){
+//     try {
+//         const response = await fetch(URL);
+//         const data = await response.json();
+//         console.log(data);   
+//         // document.getElementById("api-response").textContent = data.content;
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
+// getData(URL);
+
+
+// fetch("https://data.cityofnewyork.us/resource/ycrg-ses3.json?bor_=MAN")
+// .then(res => {
+//     if (res.ok) {
+//         console.log("yipeee")
+//     } else {
+//         console.log("poopyerror")
+//     }
+//     res.json()
+// })
+// .then(data => console.log(data))
+
+// fetch("https://data.cityofnewyork.us/resource/ycrg-ses3.json?bor_=SI")
+// .then(res => res.json())
+// .then(data => console.log(data))
+
+// fetch("https://data.cityofnewyork.us/resource/ycrg-ses3.json?bor_=BK")
+// .then(res => res.json())
+// .then(data => console.log(data))
+
+// fetch("https://data.cityofnewyork.us/resource/ycrg-ses3.json?bor_=QNS")
+// .then(res => res.json())
+// .then(data => console.log(data))
+
+// fetch("https://data.cityofnewyork.us/resource/ycrg-ses3.json?bor_=BX")
+// .then(res => res.json())
+// .then(data => console.log(data))
+
+
+

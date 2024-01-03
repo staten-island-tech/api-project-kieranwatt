@@ -1,22 +1,39 @@
 import '../styles/style.css';
-import { domselectors } from './selectors';
 // import { domselectors } from "./selectors";
-const URL = "https://data.cityofnewyork.us/resource/ycrg-ses3.json"
-const BKURL = "https://data.cityofnewyork.us/resource/ycrg-ses3.json?bor_=BK"
 
-async function getData(URL){
-    try {
-        const response = await fetch(URL);
-        const data = await response.json();
-        console.log(data);   
-        // document.getElementById("api-response").textContent = data.content;
-    } catch (error) {
-        console.log(error);
-    }
-}
-getData(URL);
 
-domselectors.brooklyn.addEventListener
+const boro = "MAN";
+
+const manurl = `https://data.cityofnewyork.us/resource/ycrg-ses3.json?bor_=${boro}`;
+
+fetch(manurl)
+    .then(res => {
+        if (res.ok) {
+            return res.json();
+        } else {
+            throw new Error("poopyerror");
+        }
+    })
+    .then(data => {
+        console.log("yipeee");
+        const uniquesbsroute1 = new Set();
+        const uniquesbsroute2 = new Set();
+
+        data.forEach(entry => {
+            uniquesbsroute1.add(entry.sbs_route1);
+            uniquesbsroute2.add(entry.sbs_route2);
+        });
+
+        uniquesbsroute1.forEach(value1 => {
+            console.log(value1);
+        });
+        uniquesbsroute2.forEach(value2 => {
+            console.log(value2);
+        });
+    })
+    .catch(error => {
+        console.error(error.message);
+    });
 
 // Idea of the project -allows you too filter by boro and lane type too see what sbs busses operate on it
 

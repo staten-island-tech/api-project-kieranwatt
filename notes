@@ -7,3 +7,5 @@ https://dev.socrata.com/foundry/data.cityofnewyork.us/ycrg-ses3
 
 [brooklyn api link](https://data.cityofnewyork.us/resource/ycrg-ses3.json?bor_%253DBK)
 https://data.cityofnewyork.us/resource/ycrg-ses3.json?bor_=BK
+
+all boro api links use the above one but replace the last 2 letters with MAN,QNS,etc
