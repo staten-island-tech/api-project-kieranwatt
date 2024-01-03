@@ -11,6 +11,8 @@ async function getData(URL) {
     //make search bar
     const bus = data.filter(bus => bus.sbs_route2 === "M14 D");
     console.log(bus);
+    const centerlanebus = data.filter(bus => bus.sbs_route1 === "BX6");
+    console.log(centerlanebus);
     //make the next buttons
     const lanebusway = data.filter(lane => lane.lane_type === "Busway");
     console.log(lanebusway);
