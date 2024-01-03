@@ -9,10 +9,7 @@ body,
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: 'Libre Franklin', sans-serif;
-  font-family: 'Mooli', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Pinyon Script', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 /* defines basic colors, gives them primary, secondary, etc values, and assigns the text size values */
 :root {
