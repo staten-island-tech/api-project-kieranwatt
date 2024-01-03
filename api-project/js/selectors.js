@@ -1,8 +1,7 @@
 const domselectors = {
     cards: document.getElementById("cards"),
-    looks: document.getElementById("looks"),
     brooklyn: document.getElementById("brooklynlanes"),  
-    statenisland: document.getElementById("statenIslandlanes"),  
+    statenisland: document.getElementById("statenislandlanes"),  
     manhattan: document.getElementById("manhattanlanes"),
     queens: document.getElementById("queenslanes"),
     thebronx: document.getElementById("bronxlanes"),
