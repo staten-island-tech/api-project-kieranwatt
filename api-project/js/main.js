@@ -2,9 +2,9 @@ import '../styles/style.css';
 // import { domselectors } from "./selectors";
 
 
-const boro = "MAN";
 
-const manurl = `https://data.cityofnewyork.us/resource/ycrg-ses3.json?bor_=${boro}`;
+
+const manurl = "https://data.cityofnewyork.us/resource/ycrg-ses3.json?bor_=MAN";
 
 fetch(manurl)
     .then(res => {
@@ -34,6 +34,8 @@ fetch(manurl)
     .catch(error => {
         console.error(error.message);
     });
+
+
 
 // Idea of the project -allows you too filter by boro and lane type too see what sbs busses operate on it
 
