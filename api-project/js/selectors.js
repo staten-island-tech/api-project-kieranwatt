@@ -1,13 +1,12 @@
 const domselectors = {
     cards: document.getElementById("cards"),
     looks: document.getElementById("looks"),
-    brooklyn: document.getElementById("Brooklynlanes"),  
-    statenisland: document.getElementById("StatenIslandlanes"),  
-    manhattan: document.getElementById("Manhattanlanes"),
-    queens: document.getElementById("Queenslanes"),
-    thebronx: document.getElementById("Bronxlanes"),
+    brooklyn: document.getElementById("brooklynlanes"),  
+    statenisland: document.getElementById("statenIslandlanes"),  
+    manhattan: document.getElementById("manhattanlanes"),
+    queens: document.getElementById("queenslanes"),
+    thebronx: document.getElementById("bronxlanes"),
     busway: document.getElementById("busway"),
     single: document.getElementById("single"),
-    dual: document.getElementById("dual"),
 };
 export { domselectors };
