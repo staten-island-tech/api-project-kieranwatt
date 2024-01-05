@@ -31,7 +31,15 @@ async function processRoutes(url) {
         });
         console.log(uniquesbsroute1)
         //insert card code here
-        
+        const store = function(bladeebus) {
+            domselectors.cards.insertAdjacentHTML("beforeend",
+            ` <div class="card" id="allcards">
+              <img src="m15sbs.jpg" alt="img" class="card-img">
+              <h4 class="card-type">${bladeebus.}</h4>
+              <h4 class="card-desc">${bladeebus.}</h5>
+              </div>
+              `)
+        };
         uniquesbsroute1.forEach(value1 => {
             if(value1){
                 console.log(value1);
