@@ -35,11 +35,11 @@ async function processRoutes(url) {
             domselectors.cards.insertAdjacentHTML("beforeend",
             ` <div class="card" id="allcards">
               <img src="m15sbs.jpg" alt="img" class="card-img">
-              <h4 class="card-type">${bladeebus.}</h4>
-              <h4 class="card-desc">${bladeebus.}</h5>
+              <h4 class="card-type">${bladeebus.sbs_route1}</h4>
+              <h4 class="card-desc">${bladeebus.sbs_route2}</h5>
               </div>
               `)
-        };
+        }; //for this code figure out how it pulls data from the code below
         uniquesbsroute1.forEach(value1 => {
             if(value1){
                 console.log(value1);
@@ -47,9 +47,6 @@ async function processRoutes(url) {
             }
             
         }); 
-        /* uniquesbsroute2.forEach(value2 => {
-            console.log(value2);
-        }); */
     } catch (error) {
         console.error(error.message);
     }
