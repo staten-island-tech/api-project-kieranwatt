@@ -31,15 +31,15 @@ async function processRoutes(url) {
                 domselectors.cards.insertAdjacentHTML("beforeend",
                     `<div class="card hidden" id="allcards">
                     <img src="m15sbs.jpg" alt="img" class="card-img">
-                    <h4 class="card-route1">${bladeebus.sbs_route1}</h4>
-                    <h4 class="card-route2">${bladeebus.sbs_route2}</h5>
+                    <h2 class="card-route1">${bladeebus.sbs_route1}</h2>
+                    <h2 class="card-route2">${bladeebus.sbs_route2}</h2>
                 </div>`
                 );
             } else {
                 domselectors.cards.insertAdjacentHTML("beforeend",
                     `<div class="card hidden" id="allcards">
                     <img src="m15sbs.jpg" alt="img" class="card-img">
-                    <h4 class="card-route1">${bladeebus.sbs_route1}</h4>
+                    <h2 class="card-route1">${bladeebus.sbs_route1}</h2>
                 </div>`
                 );
             }

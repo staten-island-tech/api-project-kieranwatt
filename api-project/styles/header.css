@@ -9,13 +9,11 @@
     display: flex;
     justify-content: center;
 }
-
 .mainheadertxt {
-    font-size: var(--h6);
+    font-size: var(--h5);
 }
-
 .headerimg {
     max-width: 20rem;
     max-height: 20rem;
+    margin: 1rem 0;
 }
-/* header css defining */

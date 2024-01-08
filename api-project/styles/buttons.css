@@ -2,10 +2,12 @@
 @import url(header.css);
 @import url(cards.css);
 
+
 .buttons {
     display: flex;
-    justify-content: left;
+    justify-content: top;
     padding: 1rem;
+    position: relative;
 }
 .brooklynbtn {
     position: relative;
@@ -22,34 +24,63 @@
 .thebronxbtn {
     position: relative;
 }
-.brooklynbtn {
-    font-size: 1rem;
+.borobtnBK {
+    font-size: 1.25rem;
+    font-weight: bold;
     height: 5rem;
     width: 10rem;
-    background-color: var(--btnbacco);
+    background-color: var(--pinkee);
 }
-.statenislandbtn {
-    font-size: 1rem;
+.borobtnBK:hover {
+    background-color: red;
+}
+.borobtnSI {
+    font-size: 1.25rem;
+    font-weight: bold;
     height: 5rem;
     width: 10rem;
-    background-color: var(--btnbacco);
+    background-color: var(--pinkee);
 }
-.manhattanbtn {
-    font-size: 1rem;
+.borobtnSI:hover {
+    background-color: yellow;
+}
+.borobtnMN {
+    font-size: 1.25rem;
+    font-weight: bold;
     height: 5rem;
     width: 10rem;
-    background-color: var(--btnbacco);
+    background-color: var(--pinkee);
 }
-.queensbtn {
-    font-size: 1rem;
+.borobtnMN:hover {
+    background-color: green;
+}
+.borobtnQN {
+    font-size: 1.25rem;
+    font-weight: bold;
     height: 5rem;
     width: 10rem;
-    background-color: var(--btnbacco);
+    background-color: var(--pinkee);
 }
-.thebronxbtn {
-    font-size: 1rem;
+.borobtnQN:hover {
+    background-color: blue;
+}
+.borobtnBX {
+    font-size: 1.25rem;
+    font-weight: bold;
     height: 5rem;
     width: 10rem;
-    background-color: var(--btnbacco);
+    background-color: var(--pinkee);
 }
-/* defining the button styles */
+.borobtnBX:hover {
+    background-color: purple;
+}
+.lanebtn {
+    font-size: 1.25rem;
+    font-weight: bold;
+    height: 5rem;
+    width: 10rem;
+    background-color: var(--pinkee);
+}
+.lanebtn:hover {
+    background-color: navajowhite;
+}

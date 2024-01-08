@@ -10,8 +10,10 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: 'Montserrat', sans-serif;
+  background-image: url(neutralbacco.jpg);
+  position: relative;
 }
-/* defines basic colors, gives them primary, secondary, etc values, and assigns the text size values */
+
 :root {
   --dark: #000000;
   --bluee: #07cccf;
@@ -25,6 +27,7 @@ body,
   --tertiary: var(--greenee);
   --quarternary: var(--bluee);
   --quinary: var(--pinkee);
+  --btnbacco: var(--pinkee)
 
 
 
@@ -34,28 +37,6 @@ body,
   --h4: 1.75rem;
   --h5: 1.5rem;
   --h6: 1rem;
-}
-/* defines darkmode theme presets */
-.darkmode {
-  background-color: var(--primary);
-  color: var(--primary);
-  --btntxt: var(--secondary);
-  --btnbacco: var(--quinary);
-  --btnborder: var(--tertiary);
-  --cardtxt: var(--secondary);
-  --cardbacco: var(--quinary);
-  --cardborder: var(--tertiary);
-}
-/* defines lightmode theme presets */
-.lightmode {
-  background-color: var(--secondary);
-  color: var(--secondary);
-  --btntxt: var(--primary);
-  --btnbacco: var(--quarternary);
-  --btnborder: var(--tertiary);
-  --cardtxt: var(--primary);
-  --cardbacco: var(--quarternary);
-  --cardborder: var(--tertiary);
 }
 
 h1 {
