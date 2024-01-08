@@ -17,5 +17,8 @@
     border-color: var(--violetee);
     background-color: var(--cardbacco);
 }
-
+.card-img {
+    width: 20rem;
+    height: 25rem;
+}
 
