@@ -90,15 +90,3 @@ filterButtons.forEach(button => {
         }
     });
 });
-
-{
-     processRoutes(`https://data.cityofnewyork.us/resource/ycrg-ses3.json`)
-}
-//displays all the cards
-
-// Idea of the project -allows you too filter by boro and lane type too see what sbs busses operate on it
-
-//use buttons to make 1 card pop up showing the m15 image as the header and a list of sbs routes for that filter (ie. "Staten Island" would show "S 79" and "Busway" would show "M 14A, M 14D, etc")
-//remove button too remove the card too allow you too use other filter buttons
-
-//if there is time make website look much better
